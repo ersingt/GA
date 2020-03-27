@@ -39,7 +39,7 @@ You can see the source for the SAT data [here](https://blog.collegevine.com/here
 
 2018 state-by-state average results and participation for the SAT are available in PDF reports [here](https://reports.collegeboard.org/sat-suite-program-results/state-results). 2018 ACT state-by-state mean composite scores and participation rates are [here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf) .
 
-**This data has been compiled into CSV files which are also included in the *data* directory of this repo**
+**This data has been compiled into CSV files which are also included in the *data* directory of this repo.**
 
 ---
 
@@ -63,7 +63,7 @@ Future projects will require you to decide on the entire structure of your techn
 
 ### Style Guide and Suggested Resources
 
-[Tim Dwyer](https://www.linkedin.com/in/jtimdwyer/) (former DSI student and TA) put together [this style guide](https://git.generalassemb.ly/DSI-US-10/style_guide). Some recommendations are geared toward future projects (which will include modeling and span multiple notebooks), but generally these are great recommendations.
+[Tim Dwyer](https://www.linkedin.com/in/jtimdwyer/) (former DSI student and TA) put together [this style guide](https://git.generalassemb.ly/DSI-US-11/style_guide). Some recommendations are geared toward future projects (which will include modeling and span multiple notebooks), but generally these are great recommendations.
 
 Here's a link on [how to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/), which provides some good recommendations for short presentations.
 
@@ -73,9 +73,9 @@ Here's a link on [how to give a good lightning talk](https://www.semrush.com/blo
 
 ### Submission
 
-**Materials must be submitted by the beginning of class on December 20.**
+**Your Slides and Technical Report must be submitted by Friday, March 27.**
 
-Your technical report will be hosted on Github Enterprise. Make sure it includes:
+Your technical report will be hosted on GitHub Enterprise. Make sure it includes:
 
 - A README.md (that isn't this file)
 - Jupyter notebook(s) with your analysis (renamed to describe your project)
@@ -83,7 +83,7 @@ Your technical report will be hosted on Github Enterprise. Make sure it includes
 - Presentation slides
 - Any other necessary files (images, etc.)
 
-**Check with your local instructor for how they would like you to submit your repo for review.**
+Submit your materials in the manner requested by your instructor.
 
 ---
 
