@@ -1,0 +1,70 @@
+
+
+# the dict with info for each player
+player_1 = {
+'player_id' : 1, #id code unique to each player (integer)
+'player_name' : None, #entered name of the player (string)
+'time_played' : float, #number of time played the game in minutes (float)
+'player_pokemon' : {}, #the player's captured pokemon (dictionary)
+'gyms_visited': []   #ids of the gyms that a player has visited (list)
+}
+
+# the dict in which the above dict is nested
+# (we're working from the outside >> in)
+poke_players = {1 : player_1}
+# poke_players should return all of the dictionaries for each player
+
+# this function ads a player to the player dict;
+# passing it the arugments for the poke player dict, the player id int, and player name string.
+# should return a new dictionary with new player_dict (poke_players) value, new player_id, and new player_name
+def add_player(players_dict, player_id, player_name):
+    new_player = {player_id :
+                  {'player_id' : player_id,
+                   'player_name' : player_name,
+                   'time_played' : float,
+                   'player_pokemon' : {},
+                   'gyms_visited' : []}}
+    players_dict.update(new_player)
+    return players_dict
+
+#gyms
+#try jut returning the gym list
+poke_players[]['gyms_visited']=sample(pokemon_gyms, 2)
+
+#this doesn't seem to work
+for gyms, visited in poke_players.items():
+     ['gyms_visited'] = sample(pokemon_gyms, 2)
+
+
+
+# creates a new pokemon >>
+# this is defining the dictionary nested in player_1called player_pokemon.
+# we'll nest these new dictonaries as enslaved pokemon under the players, in player_pokemon
+def create_pokemon(poke_id, poke_name, poke_type):
+    pokemon = {poke_id : {
+        'poke_name' :  [poke_name],
+        'poke_type' : poke_type,
+        'hp' : np.random.randint(400,500),
+        'attack': np.random.randint(50,100),
+        'defense' : np.random.randint(50,100),
+        'special_attack' : np.random.randint(100,150),
+        'special_defense' : np.random.randint(100,150),
+        'speed' : np.random.randint(0,100),
+    } }
+    return pokemon
+
+# add the newly created pokemon to a given player
+# paass arguments to the player_id, the poke_id, player_dict, and pokedex
+def add_pokemon_to_player(player_id, poke_id, player_dict, pokedex):
+    player_pokedex = poke_players[player_id]['player_pokemon']
+    player_pokedex.update(pokedex[poke_id])
+    return poke_players
+
+add_pokemon_to_player(1,3,poke_players,pokedex)
+add_pokemon_to_player(2,3,poke_players,pokedex)
+add_pokemon_to_player(2,4,poke_players,pokedex)
+
+# output should tell us which players have visted which gyms
+for gym in pokemon_gyms:
+
+    if value of players_dict{gyms_visited: v} == pokemon_gyms

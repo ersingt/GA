@@ -1,0 +1,55 @@
+
+# p of getting elixer
+
+def elixer_prob(n):
+    got_elixer = 0
+    for i in range(n):
+            elixer = np.random.randint(1,101)
+            if elixer <= 15:
+                got_elixer += 1
+    return got_elixer/n
+
+#pmf and cdf for elixers
+possible_elixers = list(range(0,101))
+
+p_elixer = .15
+n_trials = 100
+elixer_dist = stats.binom(n_trials, p_elixer)
+
+elixer_dist.pmf(20)
+
+# pmf graph
+plt.bar(possible_elixers,
+        elixer_dist.pmf(possible_elixers))
+
+
+def first_elixer(n):
+    got_elixer = []
+    for i in range(n):
+            elixer = np.random.choice(
+                a = np.array(['elixer','not_elixer']),
+                p = np.array([.15, .85])
+            if elixer == True:
+                got_elixer += 1
+    print (got_elixer)
+
+#this one didn't quite work, printed off broken out ['e,l,i,x,e,r'] 100k times
+def first_elixer(n):
+    got_elixer = []
+    for i in range(n):
+            elixer = np.random.choice(
+                a = np.array(['elixer','not_elixer']),
+                p = np.array([.15, .85]))
+            if elixer == 'elixer':
+                got_elixer += elixer
+    print(got_elixer)
+
+
+    #Q4:
+
+users = range(1,185000)
+mean = 2.7
+
+n_users = 185000
+user_dist = stats.poisson(n_users)
+user_dist.pmf()
