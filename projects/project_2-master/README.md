@@ -76,7 +76,7 @@ Findings for the explanatory variables of interest include the following:
     - p < .001
     - Sale price is often discussed as price per square foot, making this finding a useful baseline in estimating home prices, and useful in determining whether a home was selling for more or less than the expected estimate per sqft.
 
-![alt_Text](./projects/project_2-master/output/sqft_total.scatt.png)
+![image](./projects/project_2-master/output/sqft_total.scatt.png)
  
  - Material and Finish Quality:
     - 1-Group-Level Increase:
@@ -84,7 +84,7 @@ Findings for the explanatory variables of interest include the following:
     - p < .001
     - There exists in this variable a large sale price increase per group level increase. Despite some outliers, the majority of observations for each group displayed relatively low variance.
 
-![](image.png)
+![imagebroken](image.png)
  
  - Lot Frontage:
     - 1-Foot Increase:
@@ -92,7 +92,7 @@ Findings for the explanatory variables of interest include the following:
     - p < .001
     - We see some variation and outliers in this variable, but slightly less than what we see in the relationship between Lot Area and sale price -- that said, the variable is worth more exploration, perhaps by pursuing and interaction term.
 
-![](image.png)
+![imagebroken](image.png)
 
  - Years Since Remodel/Addition:
     - 1-Year Increase:
@@ -100,8 +100,7 @@ Findings for the explanatory variables of interest include the following:
     - p < .001
     - Interestingly, based on the scatter plot alone, how much remodeling matters seems to taper off around 30 years. In other words, regarding the expected value of an update/remodel, the relative value of a kitchen redone in 1990 might be about the same as one redone in 1960. It would be interesting to quantify whether a threshold for lost sale price exists here.
     
-![](image.png)
+![whywhywhy](image.png)
  
 ### Conclusions and Recommendations:
-
-
+In summary, our model suggests the best predictors of sale price to be the recency of remodeling, overall material and finish quality, and livable square footage as predictors of sale price. Although other variables were assessed in the model, few others were both statistically significant and meaningful in the scale of their impact on sale price. 
