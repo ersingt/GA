@@ -68,11 +68,34 @@ The final variables selected for modeling in this analysis are as follows:
 |Kitchen Qual|float64|Ordinal measurement (0-4) of kitchen quality|
 
 ### Findings:
-Include charts + interpretations:
+Findings for the explanatory variables of interest include the following:
 
+- Total Square Footage:
+    - 1-Sqft Increase:
+    - Associated with a $46.97 increase in sale price, all else equal.
+    - p < .001
 
+<image>
+ 
+ - Material and Finish Quality:
+    - 1-Group-Level Increase:
+    - Associated with a $9179.76 increase in sale price, all else equal.
+    - p < .001
 
+<image>
+ 
+ - Lot Frontage:
+    - 1-Foot Increase:
+    - Associated with a $181.93 increase in sale price, all else equal.
+    - p < .001
 
+<image>
+
+ - Years Since Remodel/Addition:
+    - 1-Year Increase:
+    - Associated with a $390.79 decrease in sale price, all else equal.
+    
+ 
 
 ### Conclusions and Recommendations:
 
