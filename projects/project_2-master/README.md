@@ -75,14 +75,14 @@ Findings for the explanatory variables of interest include the following:
     - Associated with a $46.97 increase in sale price, all else equal.
     - p < .001
 
-<image>
+![alt_Text](../outputs/Tableau_1.png "Title")
  
  - Material and Finish Quality:
     - 1-Group-Level Increase:
     - Associated with a $9179.76 increase in sale price, all else equal.
     - p < .001
 
-<image>
+![](image.png)
  
  - Lot Frontage:
     - 1-Foot Increase:
