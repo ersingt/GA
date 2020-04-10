@@ -75,7 +75,7 @@ Findings for the explanatory variables of interest include the following:
     - Associated with a $46.97 increase in sale price, all else equal.
     - p < .001
 
-![alt_Text](../outputs/Tableau_1.png "Title")
+![alt_Text](../output/sqft_total.scatt.png "Title")
  
  - Material and Finish Quality:
     - 1-Group-Level Increase:
