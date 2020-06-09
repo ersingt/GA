@@ -25,7 +25,12 @@ This analysis collected 26 initial variables of interest, and after standard exp
 From 179 DC Census tracts, I dropped two with low populations and little data. These tracts were the National Mall and Georgetown University.
 
 #### Results:
-This analysis mapped the mean z-scores of each variable within each cluster to a radar plot (sometimes called a spider plot). These show us relative average values that define each cluster. These clusters were then mapped back to the actual census tracts, shopwn below.
+This analysis mapped the mean z-scores of each variable within each cluster to a radar plot (sometimes called a spider plot). These show us relative average values that define each cluster. These clusters were then mapped back to the actual census tracts, shown below, and available for further investigation in the below Tableau Dashboard.
+
+-[Click Here to View Tableau Dashboard](https://public.tableau.com/profile/eric.schultz3116#!/vizhome/DCGeodemographicSegmentation/Dashboard)
+
+#### Dashboard Snapshot:
+ <image src = "05_images/Image%205-15-20%20at%205.26%20PM.jpeg" width = "600">
 
 #### Conclusions, Recommendations, and Next Steps:
 This project set oput hoping to understand where and to what extent DC is similar and dissimilar across socio-demographic characteristics. The model succeeded in that purpose, but it is somewhat surprising to see how empirically obvious social disparity is in our city. In an ideal world, we might expect a sort of tapestry in which segmented clusters were randomly distributed around the city. That is not what we observe. This analysis offers a fairly bleak reality of our city, and it is our responsibility to investigate and understand those nuances further. Below are conclusions from this analysis, as well as some ways to undertake further investigation:
