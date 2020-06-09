@@ -45,6 +45,7 @@ This project set oput hoping to understand where and to what extent DC is simila
 
 ## Data Dictionary:
 Below are the data used in final modeling. All data are from 2018 American Community Survey DC Census Tracts.
+
 |Feature|Type|Description|
 |---|---|---|
 |geo_id|object|Geographic ID used for merge to shapefile|
