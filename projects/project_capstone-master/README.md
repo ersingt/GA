@@ -27,6 +27,7 @@ From 179 DC Census tracts, I dropped two with low populations and little data. T
 #### Results:
 This analysis mapped the mean z-scores of each variable within each cluster to a radar plot (sometimes called a spider plot). These show us relative average values that define each cluster. These clusters were then mapped back to the actual census tracts, shown below, and available for further investigation in the below Tableau Dashboard.
 
+#### Explore Interactive Dashboard of Results:
 -[Click Here to View Tableau Dashboard](https://public.tableau.com/profile/eric.schultz3116#!/vizhome/DCGeodemographicSegmentation/Dashboard)
 
 #### Cluster Definition Results (See slides for further information):
@@ -42,5 +43,22 @@ This project set oput hoping to understand where and to what extent DC is simila
 4. Consider Hierarchical Clustering techniques.
 5. Consider using a smaller unit of analysis, such as 2020 Census Blocks (these will be available late 2021).
 
-
+## Data Dictionary:
+Below are the data used in final modeling. All data are from 2018 American Community Survey DC Census Tracts.
+|Feature|Type|Description|
+|---|---|---|
+|geo_id|object|Geographic ID used for merge to shapefile|
+|name_x|object|Name of Census Tract|
+|median_age|float64|Median Age of Residents in Census Tract|
+|pct_hisp_latino|float64|Percent of Census Tract Residents Identifying as Hispanic/Latino|
+|pct_black|float64|Percent of Census Tract Residents Identifying as Black|
+|pct_asian|float64|Percent of Census Tract Residents Identifying as Asian|
+|pct_unemployed|float64|Percent of Census Tract Residents Identifying as Unemployed|
+|avg_wrk_commute_mins|float64|Average to-work commute time in minutes of Census Tract Residents|
+|median_hsld_income|int64|Median Household Income of Census Tract Residents|
+|avg_household_size|float64|Average Household Size of Census Tract Residents|
+|pct_bach_degree|float64|Percentage of Census Tract Residents holding a Bachelor Degree|
+|median_rent|int64|Median Monthly Paid Rent of Census Tract Residents|
+|pct_other_minority|float64|Percentage of Census Tract Residents Identifying as some other Minority|
+|pct_renter_occupied|float64|Percentage of Census Tract Residents Housing Units Occupied by Renters|
 
