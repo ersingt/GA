@@ -30,9 +30,7 @@ This analysis mapped the mean z-scores of each variable within each cluster to a
 -[Click Here to View Tableau Dashboard](https://public.tableau.com/profile/eric.schultz3116#!/vizhome/DCGeodemographicSegmentation/Dashboard)
 
 #### Cluster Definition Results (See slides for further information):
- Radar/Spider Plots of Clusters:
  <image src = "images/radar_results.png" width = "600">
- Mapping of Clusters:
  <image src = "images/mapped_results.png" width = "600">
 
 #### Conclusions, Recommendations, and Next Steps:
