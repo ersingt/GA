@@ -27,5 +27,14 @@ From 179 DC Census tracts, I dropped two with low populations and little data. T
 #### Results:
 This analysis mapped the mean z-scores of each variable within each cluster to a radar plot (sometimes called a spider plot). These show us relative average values that define each cluster. These clusters were then mapped back to the actual census tracts, shopwn below.
 
+#### Conclusions, Recommendations, and Next Steps:
+This project set oput hoping to understand where and to what extent DC is similar and dissimilar across socio-demographic characteristics. The model succeeded in that purpose, but it is somewhat surprising to see how empirically obvious social disparity is in our city. In an ideal world, we might expect a sort of tapestry in which segmented clusters were randomly distributed around the city. That is not what we observe. This analysis offers a fairly bleak reality of our city, and it is our responsibility to investigate and understand those nuances further. Below are conclusions from this analysis, as well as some ways to undertake further investigation:
+
+1. At the census-tract level, DC is geographically segregated. This analysis offers a fairly bleak reality of DC. 
+2. The spatial outliers are worth further exploration.
+3. Consider running dimensionality reduction on a broader range of variables.
+4. Consider Hierarchical Clustering techniques.
+5. Consider using a smaller unit of analysis, such as 2020 Census Blocks (these will be available late 2021).
+
 
 
